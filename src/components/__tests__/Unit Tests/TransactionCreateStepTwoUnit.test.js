@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import TransactionCreateStepTwo from "./TransactionCreateStepTwo";
+import TransactionCreateStepTwo from "../../TransactionCreateStepTwo";
 
 test("on inital render pay button is disabled", async () => {
   render(<TransactionCreateStepTwo sender={{ id: "5" }} receiver={{ id: "5" }} />);

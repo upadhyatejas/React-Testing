@@ -147,7 +147,7 @@
     "cypress:open:mobile": "cypress open --config viewportWidth=375,viewportHeight=667",
     "cypress:run": "cypress run",
     "cypress:run:mobile": "cypress run --config viewportWidth=375,viewportHeight=667",
-    "test": "react-scripts test --maxWorkers=1",
+    "test": "react-scripts test --maxWorkers=2",
     "test:headless": "yarn cypress:run",
     "test:api": "yarn cypress:run --spec 'cypress/tests/api/*'",
     "test:unit": "react-scripts test --runInBand",
